@@ -1,8 +1,8 @@
-# Install script for directory: /home/satori/school/software_os/syn_menu/linux
+# Install script for directory: /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,83 +44,83 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/")
+  file(REMOVE_RECURSE "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu")
+  if(EXISTS "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu"
+         FILE "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu")
+   "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/intermediates_do_not_run/syn_menu")
-  if(EXISTS "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu")
+  file(INSTALL DESTINATION "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/intermediates_do_not_run/syn_menu")
+  if(EXISTS "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu"
-         OLD_RPATH "/home/satori/school/software_os/syn_menu/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu"
+         OLD_RPATH "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/syn_menu")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/syn_menu")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/data/icudtl.dat")
+   "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/satori/school/software_os/syn_menu/linux/flutter/ephemeral/icudtl.dat")
+  file(INSTALL DESTINATION "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
+   "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/satori/school/software_os/syn_menu/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+  file(INSTALL DESTINATION "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets")
+   "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/satori/school/software_os/syn_menu/build//flutter_assets")
+  file(INSTALL DESTINATION "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/satori/school/software_os/syn_menu/build/linux/x64/debug/flutter/cmake_install.cmake")
+  include("/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/flutter/cmake_install.cmake")
 
 endif()
 
@@ -132,5 +132,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

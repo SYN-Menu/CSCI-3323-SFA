@@ -1,8 +1,8 @@
 // main.dart
 import 'package:flutter/material.dart';
-
 import './settings.dart';
 import './home.dart';
+import './favorites.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,6 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedScreenIndex = 0;
   final List _screens = [
     // Change these strings for top Title
+    {"screen": const FavoriteScreen(), "title": "Favorites Page"},
     {"screen": const HomeScreen(), "title": "HomePage"},
     {"screen": const SettingsScreen(), "title": "SettingsPage"}
   ];
@@ -55,6 +56,8 @@ class _MyHomePageState extends State<MyHomePage> {
         onTap: _selectScreen,
         items: const [
           // Label here will be shown as bottom navbar name
+          BottomNavigationBarItem(
+              icon: Icon(Icons.favorite), label: "Favorites"),
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings")
         ],

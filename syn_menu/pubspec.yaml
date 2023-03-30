@@ -22,3 +22,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+assets:
+    - assets/images/logo.png
+
+# open your terminal then write following commands
+#flutter clean
+#flutter pub get
+# flutter run
+

@@ -1,8 +1,8 @@
-# Install script for directory: /home/satori/school/software_os/syn_menu/linux/flutter
+# Install script for directory: /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/satori/school/software_os/syn_menu/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
