@@ -3,6 +3,7 @@
 /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
 /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
 /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/logo.png
 /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
 /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets/packages/getwidget/icons/wechat.png
 /home/satori/school/software_os/CSCI-3323-SFA/syn_menu/build/linux/x64/debug/bundle/data/flutter_assets/packages/getwidget/icons/youtube.png

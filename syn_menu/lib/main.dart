@@ -47,6 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
+      backgroundColor: const Color(0xFF063F2C),
       appBar: AppBar(
         title: Center(child: Text(_screens[_selectedScreenIndex]["title"])),
       ),
