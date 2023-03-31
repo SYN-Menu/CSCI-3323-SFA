@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:syn_menu1/Screens/AllergyOptions/Home/home_page.dart';
+import 'package:syn_menu1/Screens/home_page.dart';
+import 'package:syn_menu1/home.dart';
+import 'package:syn_menu1/settings.dart';
 //import 'package:syn_menu1/Screens/Search/search.dart';
 
 class NextButton extends StatelessWidget {
@@ -19,7 +22,7 @@ class NextButton extends StatelessWidget {
               context,
               MaterialPageRoute(
                   builder: (cpntext) =>
-                      const HomePage())); //HomePage needs to be changed to the ValidationsPage(the next page after startPage)
+                      const MyHomePage())); //HomePage needs to be changed to the ValidationsPage(the next page after startPage)
         },
         child: const Text(
           "CONTINUE",
