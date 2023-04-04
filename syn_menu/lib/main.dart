@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List _screens = [
     // Change these strings for top Title
     {"screen": const FavoriteScreen(), "title": "Favorites Page"},
-    {"screen": const HomeScreen(), "title": "HomePage"},
+    {"screen": HomeScreen(), "title": "HomePage"},
     {"screen": const SettingsScreen(), "title": "SettingsPage"}
   ];
 

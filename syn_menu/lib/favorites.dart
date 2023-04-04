@@ -1,4 +1,4 @@
-// screen_b.dart
+// screen will read in from text file all favorite dishes
 import 'package:flutter/material.dart';
 
 class FavoriteScreen extends StatelessWidget {
