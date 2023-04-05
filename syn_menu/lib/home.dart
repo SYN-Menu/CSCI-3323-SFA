@@ -1,15 +1,33 @@
-// screen_b.dart
 import 'dart:convert';
 import 'package:syn_menu/structs/dish.dart';
 import 'package:flutter/material.dart';
 import 'dart:collection';
 import 'package:http/http.dart' as http;
+import 'package:syn_menu/structs/results.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
-  // final fixedLengthList = List<String>.filled(20, "");
-  var dishes = [];
 
+  @override
+  State<HomeScreen> createState() => _HomeScreen();
+}
+
+// Define a corresponding State class.
+// This class holds the data related to the Form.
+class _HomeScreen extends State<HomeScreen> {
+  final List dishes = [];
+  final itemController = TextEditingController();
+
+  @override
+  void dispose() {
+    // Clean up the controller when the widget is disposed.
+    itemController.dispose();
+    super.dispose();
+  }
+
+  handleInput() {}
+
+  // gets all dishes from given query
   getReq() async {
     var url =
         Uri.https('www.themealdb.com', '/api/json/v1/1/search.php', {'f': 'a'});
@@ -28,17 +46,18 @@ class HomeScreen extends StatelessWidget {
         for (int i = 1; i <= 20; i++) {
           String ingredient =
               jsonResponse['meals'][2]['strIngredient' + i.toString()];
-          ingredients.add(ingredient);
+
+          if (ingredient != "") {
+            ingredients.add(ingredient);
+          }
         }
 
         dishes.add(Dish(id: id, name: name, ingredients: ingredients));
       }
-
-      print(jsonResponse['meals'][2]['idMeal']); // id
-      print(jsonResponse['meals'][2]['strMeal']); // name
-      print(jsonResponse['meals'][2]['strIngredient16']); // ingredient (1-20)
-    } else {
-      print('Request failed with status: ${response.statusCode}.');
+      setState(() {
+        dishes.length;
+      });
+      print(dishes.length);
     }
   }
 
@@ -47,10 +66,23 @@ class HomeScreen extends StatelessWidget {
     return Center(
         child: Column(
       children: <Widget>[
+        TextField(
+          controller: itemController,
+          decoration: InputDecoration(
+            border: OutlineInputBorder(),
+            hintText: 'Enter a food dish',
+          ),
+        ),
         ElevatedButton(
           onPressed: getReq,
-          child: const Text("SUP"),
-        )
+          child: Text("Get dishes"),
+        ),
+        ListView.builder(
+            shrinkWrap: true,
+            itemCount: dishes.length,
+            itemBuilder: (context, index) {
+              return Results();
+            }),
       ],
     ));
   }
