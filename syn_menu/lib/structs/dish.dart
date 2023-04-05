@@ -1,15 +1,15 @@
 class Dish {
-  String? id;
-  String? name;
+  String id;
+  String name;
   List<String>? ingredients;
 
-  Dish({this.id, this.name, this.ingredients});
+  Dish({required this.id, required this.name, this.ingredients});
 
-  String? getId() {
+  String getId() {
     return id;
   }
 
-  String? getName() {
+  String getName() {
     return name;
   }
 

@@ -5,6 +5,9 @@ import 'dart:collection';
 import 'package:http/http.dart' as http;
 import 'package:syn_menu/structs/results.dart';
 
+// TODO: Pass params from text to query
+// TODO: MenuItems
+// TODO: Reset
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
 
@@ -37,27 +40,29 @@ class _HomeScreen extends State<HomeScreen> {
 
       // for item results
       for (int i = 0; i < jsonResponse['meals'].length; i++) {
-        String id = jsonResponse['meals'][2]['idMeal'];
-        String name = jsonResponse['meals'][2]['strMeal'];
+        String id = jsonResponse['meals'][i]['idMeal'];
+        String name = jsonResponse['meals'][i]['strMeal'];
+        String ing = jsonResponse['meals'][i]['strIngredient' + 1.toString()];
 
-        var ingredients = <String>[];
+        var ingredients = <String>[ing];
 
         // for ingredients in each item
-        for (int i = 1; i <= 20; i++) {
-          String ingredient =
-              jsonResponse['meals'][2]['strIngredient' + i.toString()];
+        // for (int j = 1; j <= 20; j++) {
+        //   String ingredient =
+        //       jsonResponse['meals'][i]['strIngredient' + j.toString()];
 
-          if (ingredient != "") {
-            ingredients.add(ingredient);
-          }
-        }
+        //   if (ingredient != null) {
+        //     ingredients.add(ingredient);
+        //   }
+        // }
 
         dishes.add(Dish(id: id, name: name, ingredients: ingredients));
+
+        print(dishes[i].getName());
+        setState(() {
+          dishes.length;
+        });
       }
-      setState(() {
-        dishes.length;
-      });
-      print(dishes.length);
     }
   }
 
@@ -81,7 +86,7 @@ class _HomeScreen extends State<HomeScreen> {
             shrinkWrap: true,
             itemCount: dishes.length,
             itemBuilder: (context, index) {
-              return Results();
+              return Results(dish: dishes[index]);
             }),
       ],
     ));
