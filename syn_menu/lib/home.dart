@@ -5,9 +5,6 @@ import 'dart:collection';
 import 'package:http/http.dart' as http;
 import 'package:syn_menu/structs/results.dart';
 
-// TODO: Pass params from text to query
-// TODO: MenuItems
-// TODO: Reset
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
 
@@ -28,12 +25,12 @@ class _HomeScreen extends State<HomeScreen> {
     super.dispose();
   }
 
-  handleInput() {}
-
   // gets all dishes from given query
-  getReq() async {
-    var url =
-        Uri.https('www.themealdb.com', '/api/json/v1/1/search.php', {'f': 'a'});
+  _getReq() async {
+    dishes.clear();
+
+    var url = Uri.https('www.themealdb.com', '/api/json/v1/1/search.php',
+        {'f': itemController.text[0]});
     var response = await http.get(url);
     if (response.statusCode == 200) {
       var jsonResponse = jsonDecode(response.body) as Map<String, dynamic>;
@@ -47,18 +44,18 @@ class _HomeScreen extends State<HomeScreen> {
         var ingredients = <String>[ing];
 
         // for ingredients in each item
-        // for (int j = 1; j <= 20; j++) {
-        //   String ingredient =
-        //       jsonResponse['meals'][i]['strIngredient' + j.toString()];
-
-        //   if (ingredient != null) {
-        //     ingredients.add(ingredient);
-        //   }
-        // }
+        for (int j = 1; j <= 20; j++) {
+          String ingredient;
+          if (jsonResponse['meals'][i]['strIngredient' + j.toString()] !=
+              null) {
+            ingredient =
+                jsonResponse['meals'][i]['strIngredient' + j.toString()];
+            ingredients.add(ingredient);
+          }
+        }
 
         dishes.add(Dish(id: id, name: name, ingredients: ingredients));
 
-        print(dishes[i].getName());
         setState(() {
           dishes.length;
         });
@@ -79,7 +76,7 @@ class _HomeScreen extends State<HomeScreen> {
           ),
         ),
         ElevatedButton(
-          onPressed: getReq,
+          onPressed: _getReq,
           child: Text("Get dishes"),
         ),
         ListView.builder(
