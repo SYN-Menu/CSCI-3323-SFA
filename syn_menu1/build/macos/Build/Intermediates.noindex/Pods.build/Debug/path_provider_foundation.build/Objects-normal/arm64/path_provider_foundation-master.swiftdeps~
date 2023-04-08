@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "b08f0ef30f88e0041e55c4785edd30542a0effcce22b2173304703b964a38f9f"
+build_start_time: [1680933166, 63743000]
+build_end_time: [1680933166, 103389000]
+inputs:
+  "/Users/tolu/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.1/macos/Classes/PathProviderPlugin.swift": !private [1680730657, 544281486]
+  "/Users/tolu/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.1/macos/Classes/messages.g.swift": !private [1680730657, 544930864]

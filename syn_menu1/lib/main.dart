@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 //import 'package:syn_menu1/Screens/Search/search.dart';
-//import 'Screens/AllergyOptions/Home/home_page.dart';
 import 'screens/AllergyOptions/allergy_page.dart';
 
 void main() {
