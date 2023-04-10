@@ -11,8 +11,8 @@ class Results extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      // Will go to raegans page
-      onTap: () {
+      // Will go to reagans page
+      onTap: (){
         print("dish clicked" + dish.getName());
         print("Id " + dish.getId());
       }, // Handle your callback
