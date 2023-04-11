@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:syn_menu1/favorites.dart';
-import 'package:syn_menu1/home.dart';
-import 'package:syn_menu1/settings.dart';
+import 'package:SYN_Menu_Final/favorites.dart';
+import 'package:SYN_Menu_Final/home.dart';
+import 'package:SYN_Menu_Final/settings.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List _screens = [
     // Change these strings for top Title
     {"screen": const FavoriteScreen(), "title": "Favorites"},
-    {"screen": const HomeScreen(), "title": "Home"},
+    {"screen": HomeScreen(), "title": "Home"},
     {"screen": const SettingsScreen(), "title": "Settings"}
   ];
 

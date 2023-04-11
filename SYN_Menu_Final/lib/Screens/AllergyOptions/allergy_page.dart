@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
-import "package:syn_menu1/Screens/AllergyOptions/multiselect2.dart";
-import "package:syn_menu1/Screens/AllergyOptions/next_button.dart";
+import "package:SYN_Menu_Final/Screens/AllergyOptions/multiselect2.dart";
+import "package:SYN_Menu_Final/Screens/AllergyOptions/next_button.dart";
 
 class AllergyPage extends StatelessWidget {
   const AllergyPage({super.key});

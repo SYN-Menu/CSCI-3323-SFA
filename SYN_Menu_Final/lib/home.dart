@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'package:syn_menu/structs/dish.dart';
+import 'package:SYN_Menu_Final/structs/dish.dart';
 import 'package:flutter/material.dart';
 import 'dart:collection';
 import 'package:http/http.dart' as http;
-import 'package:syn_menu/structs/results.dart';
+import 'package:SYN_Menu_Final/structs/results.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:syn_menu/structs/dish.dart';
+import 'package:SYN_Menu_Final/structs/dish.dart';
 
 // If clicked on return result
 

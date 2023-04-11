@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:syn_menu1/Screens/AllergyOptions/Home/home_page.dart';
-import 'package:syn_menu1/Screens/home_page.dart';
-import 'package:syn_menu1/home.dart';
-import 'package:syn_menu1/settings.dart';
+import 'package:SYN_Menu_Final/Screens/AllergyOptions/Home/home_page.dart';
+import 'package:SYN_Menu_Final/Screens/home_page.dart';
+import 'package:SYN_Menu_Final/home.dart';
+import 'package:SYN_Menu_Final/settings.dart';
 //import 'package:syn_menu1/Screens/Search/search.dart';
 
 class NextButton extends StatelessWidget {
