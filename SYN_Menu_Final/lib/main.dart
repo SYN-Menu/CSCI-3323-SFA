@@ -1,4 +1,5 @@
 // main.dart
+import 'package:SYN_Menu_Final/Screens/AllergyOptions/allergy_page.dart';
 import 'package:flutter/material.dart';
 import './settings.dart';
 import './home.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       // Hide the debug banner
       debugShowCheckedModeBanner: false,
       title: "Syn-Menu",
-      home: MyHomePage(),
+      home: AllergyPage(),
     );
   }
 }
