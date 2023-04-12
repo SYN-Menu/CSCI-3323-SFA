@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\0f19653a7e2cef4c654f615e48e28dd2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{60C49827-9B15-346A-A7FB-ADAC4D44F6A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
