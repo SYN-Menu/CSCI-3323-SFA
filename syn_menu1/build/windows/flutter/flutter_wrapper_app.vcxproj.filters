@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="C:\Users\Alejandra Hernandez\source\repos\CSCI-3323-SFA\syn_menu1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -11,10 +12,23 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Alejandra Hernandez\source\repos\CSCI-3323-SFA\syn_menu1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+=======
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\Alejandra Hernandez\source\repos\CSCI-3323-SFA\syn_menu1\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -23,6 +37,16 @@
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{47BB6F2C-783B-39D4-9A45-597F59DAC805}</UniqueIdentifier>
+=======
+    <CustomBuild Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E12C643-5648-30F9-9ACF-2BAA2B639154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8EFA17A0-19F0-3D53-88CE-2AECF546B350}</UniqueIdentifier>
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
     </Filter>
   </ItemGroup>
 </Project>

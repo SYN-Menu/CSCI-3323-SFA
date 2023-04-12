@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/windows/flutter
+=======
+# Install script for directory: C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/windows/flutter
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

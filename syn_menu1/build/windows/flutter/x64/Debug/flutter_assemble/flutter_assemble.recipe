@@ -2,10 +2,17 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\Alejandra Hernandez\source\repos\CSCI-3323-SFA\syn_menu1\build\windows\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\Alejandra Hernandez\source\repos\CSCI-3323-SFA\syn_menu1\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
+=======
+      <FullPath>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\build\windows\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\Alejandra Hernandez\source\repos\CSCI-3323-SFA\syn_menu1\build\windows\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdCXX\CompilerIdCXX.exe</FullPath>
+=======
+      <FullPath>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\syn_menu1\build\windows\CMakeFiles\3.23.22060601-MSVC_2\CompilerIdCXX\CompilerIdCXX.exe</FullPath>
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

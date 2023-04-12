@@ -1,4 +1,5 @@
 # CMake generation dependency list for this directory.
+<<<<<<< HEAD
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
@@ -67,12 +68,32 @@ C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExten
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CompilerId/VS-10.vcxproj.in
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Platform/Windows-Determine-CXX.cmake
+=======
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+<<<<<<< HEAD
 C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/3.23.22060601-MSVC_2/CMakeCXXCompiler.cmake
 C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/3.23.22060601-MSVC_2/CMakeRCCompiler.cmake
 C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/3.23.22060601-MSVC_2/CMakeSystem.cmake
 C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/windows/CMakeLists.txt
 C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/windows/flutter/generated_plugins.cmake
+=======
+C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/3.23.22060601-MSVC_2/CMakeCXXCompiler.cmake
+C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/3.23.22060601-MSVC_2/CMakeRCCompiler.cmake
+C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/3.23.22060601-MSVC_2/CMakeSystem.cmake
+C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/windows/CMakeLists.txt
+C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/windows/flutter/generated_plugins.cmake
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239

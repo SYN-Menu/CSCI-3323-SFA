@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ^C:\USERS\ALEJANDRA HERNANDEZ\SOURCE\REPOS\CSCI-3323-SFA\SYN_MENU1\WINDOWS\CMAKELISTS.TXT
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/windows" "-BC:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/build/windows" --check-stamp-file "C:/Users/Alejandra Hernandez/source/repos/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/generate.stamp"
+=======
+^C:\USERS\ALEJANDRA HERNANDEZ\DOCUMENTS\GITHUB\CSCI-3323-SFA\SYN_MENU1\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/windows" "-BC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/build/windows" --check-stamp-file "C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/syn_menu1/build/windows/CMakeFiles/generate.stamp"
+>>>>>>> a1912604416a04dece26652f4fcb11513ed7a239
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
