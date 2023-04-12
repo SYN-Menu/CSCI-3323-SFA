@@ -1,12 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:getwidget/components/dropdown/gf_multiselect.dart';
 import 'package:getwidget/types/gf_checkbox_type.dart';
 
 class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+  const MyWidget({super.key, required Null Function(dynamic selected) onSelectionChanged, required List<String> selectedAllergies, required List<String> items});
 
   @override
   State<MyWidget> createState() => _MyWidgetState();
