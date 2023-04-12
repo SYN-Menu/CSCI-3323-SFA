@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
-options: "142423aa1996601759f5a1a85fe4d69499b284956294eae9adfd98bf0ec9566b"
-build_start_time: [1681166164, 144863000]
-build_end_time: [1681166166, 262708000]
-inputs:
-  "/Users/tolu/Documents/Software Engineering(HW)/CSCI-3323-SFA/syn_menu1/macos/Flutter/GeneratedPluginRegistrant.swift": [1681166155, 313925819]
-  "/Users/tolu/Documents/Software Engineering(HW)/CSCI-3323-SFA/syn_menu1/macos/Runner/AppDelegate.swift": [1680470268, 865359675]
-  "/Users/tolu/Documents/Software Engineering(HW)/CSCI-3323-SFA/syn_menu1/macos/Runner/MainFlutterWindow.swift": [1680470268, 868330219]

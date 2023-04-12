@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
-options: "cbe77f74e1e82e94137331af97f06f7cb4bbcc0c89dd3b3d5a9cb64c2e7ac8e3"
-build_start_time: [1681333965, 342072000]
-build_end_time: [1681333967, 165372000]
-inputs:
-  "/Users/tolu/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.2.0/macos/Classes/SharedPreferencesPlugin.swift": [1680935981, 180716144]
-  "/Users/tolu/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.2.0/macos/Classes/messages.g.swift": [1680935981, 182638467]
