@@ -65,27 +65,55 @@ class _HomeScreen extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-        child: Column(
-      children: <Widget>[
-        TextField(
-          controller: itemController,
-          decoration: InputDecoration(
-            border: OutlineInputBorder(),
-            hintText: 'Enter a food dish',
+    return SingleChildScrollView(
+      child: Center(
+          child: Column(
+        children: <Widget>[
+          /*TextField(
+            controller: itemController,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Enter a food dish',
+            ),
+          ),*/
+
+          TextField(
+            controller: itemController,
+            cursorColor: Colors.white,
+            style: const TextStyle(color: Colors.white),
+            decoration: InputDecoration(
+              filled: true,
+              fillColor: const Color(0xff063525),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(8.0),
+                borderSide: BorderSide.none,
+              ),
+              hintText: "Enter a food dish",
+              prefixIcon: const Icon(Icons.search),
+              prefixIconColor: Colors.green.shade800,
+            ),
           ),
-        ),
-        ElevatedButton(
-          onPressed: _getReq,
-          child: Text("Get dishes"),
-        ),
-        ListView.builder(
-            shrinkWrap: true,
-            itemCount: dishes.length,
-            itemBuilder: (context, index) {
-              return Results(dish: dishes[index]);
-            }),
-      ],
-    ));
+          ListView.builder(
+              shrinkWrap: true,
+              itemCount: dishes.length,
+              itemBuilder: (context, index) {
+                return Results(dish: dishes[index]);
+              }),
+          const SizedBox(
+            height: 10,
+          ),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green[800],
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10))),
+            onPressed: _getReq,
+            child: Text("Get dishes"),
+          ),
+        ],
+      )),
+    );
   }
 }
