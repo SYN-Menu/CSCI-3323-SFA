@@ -1,0 +1,10 @@
+^C:\USERS\SMCRAVEN LAPTOP\SOURCE\REPOS\NEW FOLDER\CSCI-3323-SFA\SYN_MENU_FINAL\BUILD\WINDOWS\CMAKEFILES\FDCD692A338A74EAF614F436FDF79D5B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

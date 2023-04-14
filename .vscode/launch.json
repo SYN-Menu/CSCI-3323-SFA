@@ -5,21 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "syn_menu1",
-            "cwd": "syn_menu1",
+            "name": "SYN_Menu_Final",
+            "cwd": "SYN_Menu_Final",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "syn_menu1 (profile mode)",
-            "cwd": "syn_menu1",
+            "name": "SYN_Menu_Final (profile mode)",
+            "cwd": "SYN_Menu_Final",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "syn_menu1 (release mode)",
-            "cwd": "syn_menu1",
+            "name": "SYN_Menu_Final (release mode)",
+            "cwd": "SYN_Menu_Final",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
