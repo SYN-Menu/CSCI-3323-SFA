@@ -18,9 +18,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{0320319D-3F23-30FD-B388-CE44BDC3F649}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+=======
+    <ProjectGuid>{3F0ECD9A-0DD9-3433-9105-C3EF42089127}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+>>>>>>> main
     <Platform>x64</Platform>
     <ProjectName>flutter_wrapper_plugin</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -50,6 +56,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+<<<<<<< HEAD
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin</TargetName>
@@ -59,13 +66,28 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.lib</TargetExt>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\Release\</OutDir>
+=======
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\Profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_plugin.dir\Profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_plugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\Release\</OutDir>
+>>>>>>> main
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">flutter_wrapper_plugin.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">flutter_wrapper_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> main
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -85,10 +107,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> main
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -101,7 +130,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> main
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -121,10 +154,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> main
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -137,7 +177,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> main
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -157,10 +201,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> main
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,11 +223,19 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/flutter/CMakeFiles/generate.stamp"
+=======
+    <CustomBuild Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/flutter/CMakeFiles/generate.stamp"
+>>>>>>> main
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -184,12 +243,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/flutter/CMakeFiles/generate.stamp"
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/flutter/CMakeFiles/generate.stamp"
+>>>>>>> main
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,12 +265,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/flutter/CMakeFiles/generate.stamp"
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/flutter/CMakeFiles/generate.stamp"
+>>>>>>> main
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -210,12 +287,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> main
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
     <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc" />
     <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc" />
@@ -223,12 +306,26 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ProjectReference Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\ZERO_CHECK.vcxproj">
       <Project>{918BA2FF-0199-363B-AFDE-BD6B74C36784}</Project>
+=======
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc" />
+    <ClCompile Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{2E2B3FC4-D8A5-3F4C-A131-782953DDC765}</Project>
+>>>>>>> main
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\flutter_assemble.vcxproj">
       <Project>{98FCD01E-A474-3053-8745-E2FE33A805A4}</Project>
+=======
+    <ProjectReference Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\flutter\flutter_assemble.vcxproj">
+      <Project>{6CC7AD49-D6EB-3275-931F-5AC0FE4BA16F}</Project>
+>>>>>>> main
       <Name>flutter_assemble</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

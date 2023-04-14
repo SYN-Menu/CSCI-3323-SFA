@@ -19,8 +19,11 @@ class Results extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.all(10),
         height: 50,
-        color: Colors.amber[600],
-        child: Text(dish.getName()),
+        color: Colors.white.withOpacity(.3),
+        child: Text(
+          dish.getName(),
+          style: const TextStyle(color: Colors.white),
+        ),
       ),
     );
   }

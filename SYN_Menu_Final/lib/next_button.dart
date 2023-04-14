@@ -10,7 +10,7 @@ class NextButton extends StatelessWidget {
     return Center(
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.orange.withOpacity(1),
+            backgroundColor: Colors.green[800],
             padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10))),

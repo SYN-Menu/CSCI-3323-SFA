@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ^C:\USERS\SMCRAVEN LAPTOP\SOURCE\REPOS\NEW FOLDER\CSCI-3323-SFA\SYN_MENU_FINAL\BUILD\WINDOWS\CMAKEFILES\FDCD692A338A74EAF614F436FDF79D5B\GENERATE.STAMP.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/syn_menu.sln"
+=======
+^C:\USERS\ALEJANDRA HERNANDEZ\DOCUMENTS\GITHUB\CSCI-3323-SFA\SYN_MENU_FINAL\BUILD\WINDOWS\CMAKEFILES\0F19653A7E2CEF4C654F615E48E28DD2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/syn_menu.sln"
+>>>>>>> main
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
