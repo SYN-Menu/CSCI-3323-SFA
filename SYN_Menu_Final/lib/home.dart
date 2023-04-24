@@ -29,8 +29,42 @@ class _HomeScreen extends State<HomeScreen> {
   _getReq() async {
     dishes.clear();
 
+    List<String> validInput = [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j"
+          "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y",
+      "z"
+    ];
+
+    // if input isn't valid or potentially malicious, return
+    if (!(validInput.any((e) => e == itemController.text[0].toLowerCase()))) {
+      return;
+    }
+
     var url = Uri.https('www.themealdb.com', '/api/json/v1/1/search.php',
-        {'f': itemController.text[0]});
+        {'f': itemController.text[0].toLowerCase()});
     var response = await http.get(url);
     if (response.statusCode == 200) {
       var jsonResponse = jsonDecode(response.body) as Map<String, dynamic>;
