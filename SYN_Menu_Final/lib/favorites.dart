@@ -6,11 +6,9 @@ class FavoriteScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        'Favorites',
-        style: TextStyle(fontSize: 30),
-      ),
-    );
+    return Container(
+      padding: const EdgeInsets.only(right:20, left:20),
+      decoration: BoxDecoration(color: Colors.amber)
+      );
   }
 }

@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 ^C:\USERS\SMCRAVEN LAPTOP\SOURCE\REPOS\NEW FOLDER\CSCI-3323-SFA\SYN_MENU_FINAL\WINDOWS\CMAKELISTS.TXT
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/CMakeFiles/generate.stamp"
-=======
-^C:\USERS\ALEJANDRA HERNANDEZ\DOCUMENTS\GITHUB\CSCI-3323-SFA\SYN_MENU_FINAL\WINDOWS\CMAKELISTS.TXT
-setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/windows" "-BC:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows" --check-stamp-file "C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/CMakeFiles/generate.stamp"
->>>>>>> main
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

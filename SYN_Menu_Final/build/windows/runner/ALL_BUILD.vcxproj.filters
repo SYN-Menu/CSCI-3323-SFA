@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-<<<<<<< HEAD
     <CustomBuild Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\runner\CMakeLists.txt" />
-=======
-    <CustomBuild Include="C:\Users\Alejandra Hernandez\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\runner\CMakeLists.txt" />
->>>>>>> main
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

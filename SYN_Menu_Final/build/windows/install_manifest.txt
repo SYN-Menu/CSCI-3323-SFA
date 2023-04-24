@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/icudtl.dat
 C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/flutter_windows.dll
 C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
@@ -19,25 +18,3 @@ C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/bu
 C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/whatsapp.png
 C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/youtube.png
 C:/Users/smcraven laptop/source/repos/New folder/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
-=======
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/icudtl.dat
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/flutter_windows.dll
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/assets/images/logo.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/dribble.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/facebook.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/google.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/line.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/linkedin.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/pinterest.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/slack.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/twitter.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/wechat.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/whatsapp.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/packages/getwidget/icons/youtube.png
-C:/Users/Alejandra Hernandez/Documents/GitHub/CSCI-3323-SFA/SYN_Menu_Final/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
->>>>>>> main
