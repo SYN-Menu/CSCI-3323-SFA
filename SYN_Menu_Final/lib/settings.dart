@@ -40,8 +40,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   late List<String> itemNames = items.map((allergy) => allergy.toString()).toList();
   
   String selectedAllergy = 'Select allergies please';
-  final textController = TextEditingController();
-
 
   // Define variables to hold the selected allergies and SharedPreferences instance
   //List<String> itemNames = items.map((allergy) => allergy.toString()).toList();
@@ -85,7 +83,9 @@ Future<void> _loadSelectedAllergies() async {
   // Override the build method to create the widget tree
   @override
   Widget build(BuildContext context) {
-    return SafeArea(    
+    return SafeArea(
+
+      
       child: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -93,20 +93,18 @@ Future<void> _loadSelectedAllergies() async {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             const SizedBox(height: 60),
-
-            TextFormField(
-              decoration: const InputDecoration(
-                labelText: 'Select your allergies',
-                hintText: 'Type here',
-                border: OutlineInputBorder(),
-              ),
-              onChanged: (value) {
-                setState(() {
-                  selectedAllergy = value;
-                });
-              },
-           
-          ),
+TextFormField(
+  decoration: const InputDecoration(
+    labelText: 'Select your allergies',
+    hintText: 'Type here',
+    border: OutlineInputBorder(),
+  ),
+  onChanged: (value) {
+    setState(() {
+      selectedAllergy = value;
+    });
+  },
+),
             const SizedBox(height: 20),
             // Add the list of checkboxes to the widget tree
             ListView.builder(
@@ -118,10 +116,11 @@ Future<void> _loadSelectedAllergies() async {
                 return CheckboxListTile(
                   title: Text(item.name),
                   value: item.isChecked,
-                  onChanged: (isChecked) => onCheckboxChanged(isChecked!, item),
+                  onChanged: (isChecked)=> onCheckboxChanged(isChecked!, item),
                 );
               },
             ),
+        
             // Add the save button to the widget tree
             Container(      
               alignment: Alignment.bottomCenter,
@@ -146,6 +145,7 @@ Future<void> _loadSelectedAllergies() async {
       ),
     );
   }
+
   // Define a method to save the allergies to SharedPreferences
   void _saveAllergiesToPrefs() async {
     // Create a list of Allergy objects based on the selectedAllergies list
