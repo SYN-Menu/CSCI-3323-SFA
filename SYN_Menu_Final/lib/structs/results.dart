@@ -13,6 +13,7 @@ class Results extends StatelessWidget {
     return InkWell(
       // Will go to raegans page
       onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => DishInfo(name:dish.getName(),ingredients:dish.getIngredients() )));
         print("dish clicked" + dish.getName());
         print("Id " + dish.getId());
       }, // Handle your callback
