@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{76464545-DE6E-3CA0-B9F1-4A090AB6C554}</ProjectGuid>
+    <ProjectGuid>{7105FDA7-7DB2-3AA0-AE41-C3CD8D2064E9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -100,7 +100,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\fdcd692a338a74eaf614f436fdf79d5b\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\237a1d48e009226c4cafbb72b5ad8137\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -112,7 +112,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"> </Message>
@@ -126,7 +126,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -140,20 +140,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\ZERO_CHECK.vcxproj">
-      <Project>{918BA2FF-0199-363B-AFDE-BD6B74C36784}</Project>
+    <ProjectReference Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{949973F0-70A9-31E7-85F2-E4DB33349793}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\build\windows\ALL_BUILD.vcxproj">
-      <Project>{B2B9085A-5F2E-3DE0-ADE8-82F01A4D3361}</Project>
+    <ProjectReference Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\build\windows\ALL_BUILD.vcxproj">
+      <Project>{73CD200D-EEEC-3E7E-A813-0957E1AD71A2}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

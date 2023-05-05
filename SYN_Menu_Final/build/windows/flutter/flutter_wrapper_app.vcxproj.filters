@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+    <ClCompile Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+    <ClCompile Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+    <ClCompile Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+    <ClCompile Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\smcraven laptop\source\repos\New folder\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\rae03\OneDrive\Documents\GitHub\CSCI-3323-SFA\SYN_Menu_Final\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{5D072CE7-9BB7-3BB6-AE7E-ADFBA216E486}</UniqueIdentifier>
+      <UniqueIdentifier>{FCCCDEE4-1004-37AC-8DD5-8D5D65426803}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FCC36478-A570-3309-8F1F-10FC1E6D9520}</UniqueIdentifier>
+      <UniqueIdentifier>{4F4FA225-FDFA-3BC7-BC1D-D0F11F681A80}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
