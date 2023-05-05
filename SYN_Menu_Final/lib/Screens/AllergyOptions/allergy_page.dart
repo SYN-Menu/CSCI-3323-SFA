@@ -2,8 +2,8 @@ import "package:flutter/material.dart";
 import "package:SYN_Menu_Final/Screens/AllergyOptions/multiselect2.dart";
 import "package:SYN_Menu_Final/Screens/AllergyOptions/next_button.dart";
 
-class AllergyPage extends StatelessWidget {
-  const AllergyPage({super.key});
+class AllergyInputPage extends StatelessWidget {
+  const AllergyInputPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,9 @@ class AllergyPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-              const MyWidget(),
+              //dropdown
+              const Dropdown(),
+              //next button
               const NextButton(),
             ]),
           ),
@@ -46,17 +48,11 @@ class AllergyPage extends StatelessWidget {
   }
 }
 
-
-
-
-
-
-
 /*import "package:flutter/material.dart";
 import "package:syn_menu1/components/my_dropdown.dart";
 
-class AllergyPage extends StatelessWidget {
-  const AllergyPage({super.key});
+class AllergyInputPage extends StatelessWidget {
+  const AllergyInputPage({super.key});
 
   @override
   Widget build(BuildContext context) {

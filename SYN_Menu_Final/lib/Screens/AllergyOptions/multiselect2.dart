@@ -5,31 +5,39 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:getwidget/components/dropdown/gf_multiselect.dart';
 import 'package:getwidget/types/gf_checkbox_type.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class Dropdown extends StatefulWidget {
+  const Dropdown({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<Dropdown> createState() => _DropdownState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _DropdownState extends State<Dropdown> {
+  List<String> selectedItems = [];
+  List<String> allergies = [
+    "Milk",
+    "Eggs",
+    "Fish",
+    "Shellfish",
+    "Tree nuts",
+    "Peanuts",
+    "Wheat",
+    "Soybeans"
+  ];
   @override
   Widget build(BuildContext context) {
     // ignore: avoid_unnecessary_containers
+    //items listed in the dropdown
     return Container(
       padding: const EdgeInsets.only(right: 20, left: 20),
       child: GFMultiSelect(
-        items: const [
-          "Milk",
-          "Eggs",
-          "Fish",
-          "Shellfish",
-          "Tree nuts",
-          "Peanuts",
-          "Wheat",
-          "Soybeans"
-        ],
-        onSelect: (value) {},
+        items: allergies,
+        onSelect: (value) {
+          print(value);
+          /*setState(() {
+            selectedItems = List<String>.from(value);
+          });*/
+        },
         dropdownTitleTileText: 'Select your allergies',
         dropdownTitleTileColor: Colors.black.withOpacity(.3),
         dropdownTitleTileMargin:
@@ -47,9 +55,10 @@ class _MyWidgetState extends State<MyWidget> {
           Icons.keyboard_arrow_up,
           color: Colors.white,
         ),
+        //submit button inside menu
         submitButton: const Text('OK'),
+        //cancel button inside menu
         cancelButton: const Text('CLEAR'),
-        //cancelButton:
         dropdownTitleTileTextStyle:
             const TextStyle(fontSize: 14, color: Colors.white),
         padding: const EdgeInsets.all(0),

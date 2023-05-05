@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-// import 'package:syn_menu1/Screens/AllergyOptions/Home/home_page.dart';
-//import 'package:syn_menu1/Screens/Search/search.dart';
+/*import 'package:flutter/material.dart';
+import 'package:syn_menu1/Screens/AllergyOptions/Home/home_page.dart';
+import 'package:syn_menu1/Screens/Search/search.dart';
 
 class NextButton extends StatelessWidget {
   const NextButton({super.key});
@@ -42,4 +42,4 @@ class Page2 extends StatelessWidget {
       ),
     );
   }
-}
+}*/

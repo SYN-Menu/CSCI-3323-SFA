@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       // Hide the debug banner
       debugShowCheckedModeBanner: false,
       title: "Syn-Menu",
-      home: AllergyPage(),
+      home: AllergyInputPage(),
     );
   }
 }

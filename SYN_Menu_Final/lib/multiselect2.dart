@@ -4,7 +4,11 @@ import 'package:getwidget/components/dropdown/gf_multiselect.dart';
 import 'package:getwidget/types/gf_checkbox_type.dart';
 
 class MyWidget extends StatefulWidget {
-  const MyWidget({super.key, required Null Function(dynamic selected) onSelectionChanged, required List<String> selectedAllergies, required List<String> items});
+  const MyWidget(
+      {super.key,
+      required Null Function(dynamic selected) onSelectionChanged,
+      required List<String> selectedAllergies,
+      required List<String> items});
 
   @override
   State<MyWidget> createState() => _MyWidgetState();
